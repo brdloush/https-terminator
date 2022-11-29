@@ -21,3 +21,9 @@ example: bb https_terminator.clj -t https://some.remoteserver.com -p 1234
 ## Requirements
 
 - babashka
+
+## Running via docker
+
+```bash
+docker run --rm -it -p 1234:1234 brdloush/https-terminator -t https://some.remoteserver.com -p 1234
+```
